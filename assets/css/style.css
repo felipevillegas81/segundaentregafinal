@@ -1,0 +1,60 @@
+/* General page parameters */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.graybody{
+    background-color: rgba(248, 249, 250, 0.5);
+}
+
+.transition {
+    transition: width 1s, height 1s, margin 1s;
+    margin: 40px auto 0;
+}
+.transition:hover{
+    width: 100%;
+    margin: 0% auto;
+}
+
+.copyright{
+    padding: 2%;
+    margin: 2%;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight:normal;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.lents{
+    width: 500px;
+    height: auto;
+    border-color: black;
+    border-style:solid;
+}
+
+@media screen and (max-width: 1100px){
+
+    .lents{
+        width: 300px;
+        height: auto;
+        border-color: black;
+        border-style:solid;
+    }
+
+}
+
+@media screen and (max-width: 800px){
+
+    .lents{
+        width: 400px;
+        height: auto;
+        border-color: black;
+        border-style:solid;
+    }
+
+}
+    
